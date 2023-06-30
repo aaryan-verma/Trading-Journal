@@ -16,7 +16,7 @@ passport.use(new GoogleStrategy({
       displayName: profile.displayName,
       firstName: profile.name.givenName,
       lastName: profile.name.familyName,
-      profileImage: profile.photos[0].value
+      profileImage: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&psig=AOvVaw1KnKR5zqOlcBI_Nt50MmF5&ust=1676011605291000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPim8fTrh_0CFQAAAAAdAAAAABAE'
     }
 
     try {
